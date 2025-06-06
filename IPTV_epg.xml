@@ -1,636 +1,478 @@
 <?xml version="1.0" encoding="utf-8" ?><!DOCTYPE tv SYSTEM "http://www.teleguide.info/download/xmltv.dtd">
 <tv generator-info-name="TVH_W/0.8" generator-info-url="http://www.teleguide.info/">
             <channel id="1">
-            <display-name lang="ru">Первый канал
-</display-name>
+            <display-name lang="ru">Первый канал</display-name>
             </channel>
             <channel id="2">
-            <display-name lang="ru"> Россия 1
-</display-name>
+            <display-name lang="ru"> Россия 1</display-name>
             </channel>
             <channel id="3">
-            <display-name lang="ru">Матч! ТВ
-</display-name>
+            <display-name lang="ru">Матч! ТВ</display-name>
             </channel>
             <channel id="4">
-            <display-name lang="ru"> РТР-Планета Европа
-</display-name>
+            <display-name lang="ru"> РТР-Планета Европа</display-name>
             </channel>
             <channel id="5">
-            <display-name lang="ru">НТВ
-</display-name>
+            <display-name lang="ru">НТВ</display-name>
             </channel>
             <channel id="6">
-            <display-name lang="ru"> Пятый канал
-</display-name>
+            <display-name lang="ru"> Пятый канал</display-name>
             </channel>
             <channel id="7">
-            <display-name lang="ru"> Россия К
-</display-name>
+            <display-name lang="ru"> Россия К</display-name>
             </channel>
             <channel id="8">
-            <display-name lang="ru">Россия 24
-</display-name>
+            <display-name lang="ru">Россия 24</display-name>
             </channel>
             <channel id="9">
-            <display-name lang="ru"> Карусель
-</display-name>
+            <display-name lang="ru"> Карусель</display-name>
             </channel>
             <channel id="10">
-            <display-name lang="ru">ОТР
-</display-name>
+            <display-name lang="ru">ОТР</display-name>
             </channel>
             <channel id="11">
-            <display-name lang="ru">ТВ Центр
-</display-name>
+            <display-name lang="ru">ТВ Центр</display-name>
             </channel>
             <channel id="12">
-            <display-name lang="ru">РЕН ТВ
-</display-name>
+            <display-name lang="ru">РЕН ТВ</display-name>
             </channel>
             <channel id="13">
-            <display-name lang="ru">СТС
-</display-name>
+            <display-name lang="ru">СТС</display-name>
             </channel>
             <channel id="14">
-            <display-name lang="ru">Домашний
-</display-name>
+            <display-name lang="ru">Домашний</display-name>
             </channel>
             <channel id="15">
-            <display-name lang="ru">ТВ-3
-</display-name>
+            <display-name lang="ru">ТВ-3</display-name>
             </channel>
             <channel id="16">
-            <display-name lang="ru">Пятница
-</display-name>
+            <display-name lang="ru">Пятница</display-name>
             </channel>
             <channel id="17">
-            <display-name lang="ru">Звезда
-</display-name>
+            <display-name lang="ru">Звезда</display-name>
             </channel>
             <channel id="18">
-            <display-name lang="ru"> Мир 24
-</display-name>
+            <display-name lang="ru"> Мир 24</display-name>
             </channel>
             <channel id="19">
-            <display-name lang="ru">ТНТ
-</display-name>
+            <display-name lang="ru">ТНТ</display-name>
             </channel>
             <channel id="20">
-            <display-name lang="ru"> РБК HD
-</display-name>
+            <display-name lang="ru"> РБК HD</display-name>
             </channel>
             <channel id="21">
-            <display-name lang="ru"> ОСН ТВ
-</display-name>
+            <display-name lang="ru"> ОСН ТВ</display-name>
             </channel>
             <channel id="22">
-            <display-name lang="ru"> ТАСС
-</display-name>
+            <display-name lang="ru"> ТАСС</display-name>
             </channel>
             <channel id="23">
-            <display-name lang="ru"> 360 Новости
-</display-name>
+            <display-name lang="ru"> 360 Новости</display-name>
             </channel>
             <channel id="24">
-            <display-name lang="ru">Известия HD
-</display-name>
+            <display-name lang="ru">Известия HD</display-name>
             </channel>
             <channel id="25">
-            <display-name lang="ru"> BBC World News
-</display-name>
+            <display-name lang="ru"> BBC World News</display-name>
             </channel>
             <channel id="26">
-            <display-name lang="ru">СТС Love
-</display-name>
+            <display-name lang="ru">СТС Love</display-name>
             </channel>
             <channel id="27">
-            <display-name lang="ru">Суббота!
-</display-name>
+            <display-name lang="ru">Суббота!</display-name>
             </channel>
             <channel id="28">
-            <display-name lang="ru">ТНТ4
-</display-name>
+            <display-name lang="ru">ТНТ4</display-name>
             </channel>
             <channel id="29">
-            <display-name lang="ru">Че
-</display-name>
+            <display-name lang="ru">Че</display-name>
             </channel>
             <channel id="30">
-            <display-name lang="ru">Ю
-</display-name>
+            <display-name lang="ru">Ю</display-name>
             </channel>
             <channel id="31">
-            <display-name lang="ru"> Just TV
-</display-name>
+            <display-name lang="ru"> Just TV</display-name>
             </channel>
             <channel id="32">
-            <display-name lang="ru"> Продвижение
-</display-name>
+            <display-name lang="ru"> Продвижение</display-name>
             </channel>
             <channel id="33">
-            <display-name lang="ru">Твоё ТВ HD Юмор
-</display-name>
+            <display-name lang="ru">Твоё ТВ HD Юмор</display-name>
             </channel>
             <channel id="34">
-            <display-name lang="ru"> Кулинар ТВ
-</display-name>
+            <display-name lang="ru"> Кулинар ТВ</display-name>
             </channel>
             <channel id="35">
-            <display-name lang="ru"> Food Network
-</display-name>
+            <display-name lang="ru"> Food Network</display-name>
             </channel>
             <channel id="36">
-            <display-name lang="ru"> Живи
-</display-name>
+            <display-name lang="ru"> Живи</display-name>
             </channel>
             <channel id="37">
-            <display-name lang="ru">viju+ Planet HD
-</display-name>
+            <display-name lang="ru">viju+ Planet HD</display-name>
             </channel>
             <channel id="38">
-            <display-name lang="ru">Terra HD
-</display-name>
+            <display-name lang="ru">Terra HD</display-name>
             </channel>
             <channel id="39">
-            <display-name lang="ru">Моя Планета
-</display-name>
+            <display-name lang="ru">Моя Планета</display-name>
             </channel>
             <channel id="40">
-            <display-name lang="ru"> Загородная жизнь
-</display-name>
+            <display-name lang="ru"> Загородная жизнь</display-name>
             </channel>
             <channel id="41">
-            <display-name lang="ru">Кто есть кто
-</display-name>
+            <display-name lang="ru">Кто есть кто</display-name>
             </channel>
             <channel id="42">
-            <display-name lang="ru">RTG HD
-</display-name>
+            <display-name lang="ru">RTG HD</display-name>
             </channel>
             <channel id="43">
-            <display-name lang="ru">История
-</display-name>
+            <display-name lang="ru">История</display-name>
             </channel>
             <channel id="44">
-            <display-name lang="ru"> viju TV1000
-</display-name>
+            <display-name lang="ru"> viju TV1000</display-name>
             </channel>
             <channel id="45">
-            <display-name lang="ru">viju TV1000 Action HD
-</display-name>
+            <display-name lang="ru">viju TV1000 Action HD</display-name>
             </channel>
             <channel id="46">
-            <display-name lang="ru">viju TV1000 romantica
-</display-name>
+            <display-name lang="ru">viju TV1000 romantica</display-name>
             </channel>
             <channel id="47">
-            <display-name lang="ru"> Ретро ТВ
-</display-name>
+            <display-name lang="ru"> Ретро ТВ</display-name>
             </channel>
             <channel id="48">
-            <display-name lang="ru">Hollywood
-</display-name>
+            <display-name lang="ru">Hollywood</display-name>
             </channel>
             <channel id="49">
-            <display-name lang="ru"> Кино 1 International
-</display-name>
+            <display-name lang="ru"> Кино 1 International</display-name>
             </channel>
             <channel id="50">
-            <display-name lang="ru"> 1FILMAX
-</display-name>
+            <display-name lang="ru"> 1FILMAX</display-name>
             </channel>
             <channel id="51">
-            <display-name lang="ru"> 2FILMAX
-</display-name>
+            <display-name lang="ru"> 2FILMAX</display-name>
             </channel>
             <channel id="52">
-            <display-name lang="ru"> Видеокасета VHS
-</display-name>
+            <display-name lang="ru"> Видеокасета VHS</display-name>
             </channel>
             <channel id="53">
-            <display-name lang="ru"> ФАНТАСТИКА HD
-</display-name>
+            <display-name lang="ru"> ФАНТАСТИКА HD</display-name>
             </channel>
             <channel id="54">
-            <display-name lang="ru"> ПАМЯТЬ HD
-</display-name>
+            <display-name lang="ru"> ПАМЯТЬ HD</display-name>
             </channel>
             <channel id="55">
-            <display-name lang="ru"> МультСказки HD
-</display-name>
+            <display-name lang="ru"> МультСказки HD</display-name>
             </channel>
             <channel id="56">
-            <display-name lang="ru"> Film TV 1
-</display-name>
+            <display-name lang="ru"> Film TV 1</display-name>
             </channel>
             <channel id="57">
-            <display-name lang="ru"> Film TV 2 отлично
-</display-name>
+            <display-name lang="ru"> Film TV 2 отлично</display-name>
             </channel>
             <channel id="58">
-            <display-name lang="ru"> Film TV 3
-</display-name>
+            <display-name lang="ru"> Film TV 3</display-name>
             </channel>
             <channel id="59">
-            <display-name lang="ru"> Film TV 4
-</display-name>
+            <display-name lang="ru"> Film TV 4</display-name>
             </channel>
             <channel id="60">
-            <display-name lang="ru"> Film TV 6
-</display-name>
+            <display-name lang="ru"> Film TV 6</display-name>
             </channel>
             <channel id="61">
-            <display-name lang="ru"> Новый Русский
-</display-name>
+            <display-name lang="ru"> Новый Русский</display-name>
             </channel>
             <channel id="62">
-            <display-name lang="ru"> Fantom
-</display-name>
+            <display-name lang="ru"> Fantom</display-name>
             </channel>
             <channel id="63">
-            <display-name lang="ru"> Akudji TV
-</display-name>
+            <display-name lang="ru"> Akudji TV</display-name>
             </channel>
             <channel id="64">
-            <display-name lang="ru"> NReality
-</display-name>
+            <display-name lang="ru"> NReality</display-name>
             </channel>
             <channel id="65">
-            <display-name lang="ru"> ВосходТВ
-</display-name>
+            <display-name lang="ru"> ВосходТВ</display-name>
             </channel>
             <channel id="66">
-            <display-name lang="ru"> Series TV
-</display-name>
+            <display-name lang="ru"> Series TV</display-name>
             </channel>
             <channel id="67">
-            <display-name lang="ru"> FantasticMystiC
-</display-name>
+            <display-name lang="ru"> FantasticMystiC</display-name>
             </channel>
             <channel id="68">
-            <display-name lang="ru"> Первый автомобильный
-</display-name>
+            <display-name lang="ru"> Первый автомобильный</display-name>
             </channel>
             <channel id="69">
-            <display-name lang="ru"> Retrovision
-</display-name>
+            <display-name lang="ru"> Retrovision</display-name>
             </channel>
             <channel id="70">
-            <display-name lang="ru"> Retrovision Motor
-</display-name>
+            <display-name lang="ru"> Retrovision Motor</display-name>
             </channel>
             <channel id="71">
-            <display-name lang="ru"> Retrovision Movies
-</display-name>
+            <display-name lang="ru"> Retrovision Movies</display-name>
             </channel>
             <channel id="72">
-            <display-name lang="ru"> Retrovision Classic
-</display-name>
+            <display-name lang="ru"> Retrovision Classic</display-name>
             </channel>
             <channel id="73">
-            <display-name lang="ru"> Retrovision Кинопанорама
-</display-name>
+            <display-name lang="ru"> Retrovision Кинопанорама</display-name>
             </channel>
             <channel id="74">
-            <display-name lang="ru">Кинозалы 1
-</display-name>
+            <display-name lang="ru">Кинозалы 1</display-name>
             </channel>
             <channel id="75">
-            <display-name lang="ru">Кинозалы 2
-</display-name>
+            <display-name lang="ru">Кинозалы 2</display-name>
             </channel>
             <channel id="76">
-            <display-name lang="ru">Кинозалы 3
-</display-name>
+            <display-name lang="ru">Кинозалы 3</display-name>
             </channel>
             <channel id="77">
-            <display-name lang="ru">Кинозалы 5
-</display-name>
+            <display-name lang="ru">Кинозалы 5</display-name>
             </channel>
             <channel id="78">
-            <display-name lang="ru">Кинозалы 6
-</display-name>
+            <display-name lang="ru">Кинозалы 6</display-name>
             </channel>
             <channel id="79">
-            <display-name lang="ru">Кинозалы 7
-</display-name>
+            <display-name lang="ru">Кинозалы 7</display-name>
             </channel>
             <channel id="80">
-            <display-name lang="ru">Кинозалы 8
-</display-name>
+            <display-name lang="ru">Кинозалы 8</display-name>
             </channel>
             <channel id="81">
-            <display-name lang="ru">Кинозалы 9
-</display-name>
+            <display-name lang="ru">Кинозалы 9</display-name>
             </channel>
             <channel id="82">
-            <display-name lang="ru">Кинозалы 10
-</display-name>
+            <display-name lang="ru">Кинозалы 10</display-name>
             </channel>
             <channel id="83">
-            <display-name lang="ru">Кинозалы 11
-</display-name>
+            <display-name lang="ru">Кинозалы 11</display-name>
             </channel>
             <channel id="84">
-            <display-name lang="ru">Кинозалы 12
-</display-name>
+            <display-name lang="ru">Кинозалы 12</display-name>
             </channel>
             <channel id="85">
-            <display-name lang="ru">Кинозалы 13
-</display-name>
+            <display-name lang="ru">Кинозалы 13</display-name>
             </channel>
             <channel id="86">
-            <display-name lang="ru">Кинозалы 14
-</display-name>
+            <display-name lang="ru">Кинозалы 14</display-name>
             </channel>
             <channel id="87">
-            <display-name lang="ru">Кинозалы 15
-</display-name>
+            <display-name lang="ru">Кинозалы 15</display-name>
             </channel>
             <channel id="88">
-            <display-name lang="ru">Кинозалы 16
-</display-name>
+            <display-name lang="ru">Кинозалы 16</display-name>
             </channel>
             <channel id="89">
-            <display-name lang="ru">Кинозалы 17
-</display-name>
+            <display-name lang="ru">Кинозалы 17</display-name>
             </channel>
             <channel id="90">
-            <display-name lang="ru">Кинозалы 18
-</display-name>
+            <display-name lang="ru">Кинозалы 18</display-name>
             </channel>
             <channel id="91">
-            <display-name lang="ru">Кинозалы 19
-</display-name>
+            <display-name lang="ru">Кинозалы 19</display-name>
             </channel>
             <channel id="92">
-            <display-name lang="ru">Кинозалы 20
-</display-name>
+            <display-name lang="ru">Кинозалы 20</display-name>
             </channel>
             <channel id="93">
-            <display-name lang="ru">Кинозалы 21
-</display-name>
+            <display-name lang="ru">Кинозалы 21</display-name>
             </channel>
             <channel id="94">
-            <display-name lang="ru">Кинозалы 22
-</display-name>
+            <display-name lang="ru">Кинозалы 22</display-name>
             </channel>
             <channel id="95">
-            <display-name lang="ru">Кинозалы 23
-</display-name>
+            <display-name lang="ru">Кинозалы 23</display-name>
             </channel>
             <channel id="96">
-            <display-name lang="ru">Кинозалы 24
-</display-name>
+            <display-name lang="ru">Кинозалы 24</display-name>
             </channel>
             <channel id="97">
-            <display-name lang="ru">Кинозалы 25
-</display-name>
+            <display-name lang="ru">Кинозалы 25</display-name>
             </channel>
             <channel id="98">
-            <display-name lang="ru">Кинозалы 26
-</display-name>
+            <display-name lang="ru">Кинозалы 26</display-name>
             </channel>
             <channel id="99">
-            <display-name lang="ru">Кинозалы 27
-</display-name>
+            <display-name lang="ru">Кинозалы 27</display-name>
             </channel>
             <channel id="100">
-            <display-name lang="ru">Кинозалы 28
-</display-name>
+            <display-name lang="ru">Кинозалы 28</display-name>
             </channel>
             <channel id="101">
-            <display-name lang="ru">Кинозалы 29
-</display-name>
+            <display-name lang="ru">Кинозалы 29</display-name>
             </channel>
             <channel id="102">
-            <display-name lang="ru">Кинозалы 30
-</display-name>
+            <display-name lang="ru">Кинозалы 30</display-name>
             </channel>
             <channel id="103">
-            <display-name lang="ru">Кинозалы 31
-</display-name>
+            <display-name lang="ru">Кинозалы 31</display-name>
             </channel>
             <channel id="104">
-            <display-name lang="ru">Кинозалы 32
-</display-name>
+            <display-name lang="ru">Кинозалы 32</display-name>
             </channel>
             <channel id="105">
-            <display-name lang="ru">Кинозалы 33
-</display-name>
+            <display-name lang="ru">Кинозалы 33</display-name>
             </channel>
             <channel id="106">
-            <display-name lang="ru">Кинозалы 34
-</display-name>
+            <display-name lang="ru">Кинозалы 34</display-name>
             </channel>
             <channel id="107">
-            <display-name lang="ru">Кинозалы 35
-</display-name>
+            <display-name lang="ru">Кинозалы 35</display-name>
             </channel>
             <channel id="108">
-            <display-name lang="ru">Кинозалы 36
-</display-name>
+            <display-name lang="ru">Кинозалы 36</display-name>
             </channel>
             <channel id="109">
-            <display-name lang="ru">Кинозалы 37
-</display-name>
+            <display-name lang="ru">Кинозалы 37</display-name>
             </channel>
             <channel id="110">
-            <display-name lang="ru"> Baby Time
-</display-name>
+            <display-name lang="ru"> Baby Time</display-name>
             </channel>
             <channel id="111">
-            <display-name lang="ru"> Мульт
-</display-name>
+            <display-name lang="ru"> Мульт</display-name>
             </channel>
             <channel id="112">
-            <display-name lang="ru">Ani
-</display-name>
+            <display-name lang="ru">Ani</display-name>
             </channel>
             <channel id="113">
-            <display-name lang="ru"> Рыжий
-</display-name>
+            <display-name lang="ru"> Рыжий</display-name>
             </channel>
             <channel id="114">
-            <display-name lang="ru"> Мульт и музыка
-</display-name>
+            <display-name lang="ru"> Мульт и музыка</display-name>
             </channel>
             <channel id="115">
-            <display-name lang="ru"> Чип и Дейл
-</display-name>
+            <display-name lang="ru"> Чип и Дейл</display-name>
             </channel>
             <channel id="116">
-            <display-name lang="ru"> Мультики и Сказки HD
-</display-name>
+            <display-name lang="ru"> Мультики и Сказки HD</display-name>
             </channel>
             <channel id="117">
-            <display-name lang="ru"> Ералаш
-</display-name>
+            <display-name lang="ru"> Ералаш</display-name>
             </channel>
             <channel id="118">
-            <display-name lang="ru"> Детское кино International
-</display-name>
+            <display-name lang="ru"> Детское кино International</display-name>
             </channel>
             <channel id="119">
-            <display-name lang="ru">VIVA TV Russia
-</display-name>
+            <display-name lang="ru">VIVA TV Russia</display-name>
             </channel>
             <channel id="120">
-            <display-name lang="ru"> Oxygen Music 
-</display-name>
+            <display-name lang="ru"> Oxygen Music </display-name>
             </channel>
             <channel id="121">
-            <display-name lang="ru"> TMF RUS
-</display-name>
+            <display-name lang="ru"> TMF RUS</display-name>
             </channel>
             <channel id="122">
-            <display-name lang="ru"> TECHNO DANCE MUSIC
-</display-name>
+            <display-name lang="ru"> TECHNO DANCE MUSIC</display-name>
             </channel>
             <channel id="123">
-            <display-name lang="ru"> DanceHits 80'
-</display-name>
+            <display-name lang="ru"> DanceHits 80'</display-name>
             </channel>
             <channel id="124">
-            <display-name lang="ru"> MIXM TB
-</display-name>
+            <display-name lang="ru"> MIXM TB</display-name>
             </channel>
             <channel id="125">
-            <display-name lang="ru"> Spirit TV
-</display-name>
+            <display-name lang="ru"> Spirit TV</display-name>
             </channel>
             <channel id="126">
-            <display-name lang="ru">Hot Beats TV HD
-</display-name>
+            <display-name lang="ru">Hot Beats TV HD</display-name>
             </channel>
             <channel id="127">
-            <display-name lang="ru">Deluxe Music TV
-</display-name>
+            <display-name lang="ru">Deluxe Music TV</display-name>
             </channel>
             <channel id="128">
-            <display-name lang="ru">Kiss TV
-</display-name>
+            <display-name lang="ru">Kiss TV</display-name>
             </channel>
             <channel id="129">
-            <display-name lang="ru">Kaloopy HD
-</display-name>
+            <display-name lang="ru">Kaloopy HD</display-name>
             </channel>
             <channel id="130">
-            <display-name lang="ru">Loupe 4k
-</display-name>
+            <display-name lang="ru">Loupe 4k</display-name>
             </channel>
             <channel id="131">
-            <display-name lang="ru"> CHD-TV RU Rock HD
-</display-name>
+            <display-name lang="ru"> CHD-TV RU Rock HD</display-name>
             </channel>
             <channel id="132">
-            <display-name lang="ru"> V2BEAT TV
-</display-name>
+            <display-name lang="ru"> V2BEAT TV</display-name>
             </channel>
             <channel id="133">
-            <display-name lang="ru"> Dance TV
-</display-name>
+            <display-name lang="ru"> Dance TV</display-name>
             </channel>
             <channel id="134">
-            <display-name lang="ru"> Deep House District
-</display-name>
+            <display-name lang="ru"> Deep House District</display-name>
             </channel>
             <channel id="135">
-            <display-name lang="ru">Clubbing TV
-</display-name>
+            <display-name lang="ru">Clubbing TV</display-name>
             </channel>
             <channel id="136">
-            <display-name lang="ru"> Song TV Россия
-</display-name>
+            <display-name lang="ru"> Song TV Россия</display-name>
             </channel>
             <channel id="137">
-            <display-name lang="ru"> RU.TV HD
-</display-name>
+            <display-name lang="ru"> RU.TV HD</display-name>
             </channel>
             <channel id="138">
-            <display-name lang="ru"> MTV Europe
-</display-name>
+            <display-name lang="ru"> MTV Europe</display-name>
             </channel>
             <channel id="139">
-            <display-name lang="ru"> MTV Classic
-</display-name>
+            <display-name lang="ru"> MTV Classic</display-name>
             </channel>
             <channel id="140">
-            <display-name lang="ru"> Муз ТВ
-</display-name>
+            <display-name lang="ru"> Муз ТВ</display-name>
             </channel>
             <channel id="141">
-            <display-name lang="ru">1HD Music
-</display-name>
+            <display-name lang="ru">1HD Music</display-name>
             </channel>
             <channel id="142">
-            <display-name lang="ru">Первый музыкальный
-</display-name>
+            <display-name lang="ru">Первый музыкальный</display-name>
             </channel>
             <channel id="143">
-            <display-name lang="ru">Первый музыкальный HD
-</display-name>
+            <display-name lang="ru">Первый музыкальный HD</display-name>
             </channel>
             <channel id="144">
-            <display-name lang="ru">ТНТ Music HD
-</display-name>
+            <display-name lang="ru">ТНТ Music HD</display-name>
             </channel>
             <channel id="145">
-            <display-name lang="ru"> Bridge TV Deluxe
-</display-name>
+            <display-name lang="ru"> Bridge TV Deluxe</display-name>
             </channel>
             <channel id="146">
-            <display-name lang="ru"> Bridge TV Шлягер
-</display-name>
+            <display-name lang="ru"> Bridge TV Шлягер</display-name>
             </channel>
             <channel id="147">
-            <display-name lang="ru"> Retro Music
-</display-name>
+            <display-name lang="ru"> Retro Music</display-name>
             </channel>
             <channel id="148">
-            <display-name lang="ru"> Retro Music TV
-</display-name>
+            <display-name lang="ru"> Retro Music TV</display-name>
             </channel>
             <channel id="149">
-            <display-name lang="ru">Ocko Star
-</display-name>
+            <display-name lang="ru">Ocko Star</display-name>
             </channel>
             <channel id="150">
-            <display-name lang="ru">Ocko TV
-</display-name>
+            <display-name lang="ru">Ocko TV</display-name>
             </channel>
             <channel id="151">
-            <display-name lang="ru">Ocko Gold
-</display-name>
+            <display-name lang="ru">Ocko Gold</display-name>
             </channel>
             <channel id="152">
-            <display-name lang="ru">Музыка 1 International
-</display-name>
+            <display-name lang="ru">Музыка 1 International</display-name>
             </channel>
             <channel id="153">
-            <display-name lang="ru">Музыка 2 International
-</display-name>
+            <display-name lang="ru">Музыка 2 International</display-name>
             </channel>
             <channel id="154">
-            <display-name lang="ru">Музыка Кино International
-</display-name>
+            <display-name lang="ru">Музыка Кино International</display-name>
             </channel>
             <channel id="155">
-            <display-name lang="ru">Fashion 4K
-</display-name>
+            <display-name lang="ru">Fashion 4K</display-name>
             </channel>
             <channel id="156">
-            <display-name lang="ru">Fashion TV HD
-</display-name>
+            <display-name lang="ru">Fashion TV HD</display-name>
             </channel>
             <channel id="157">
-            <display-name lang="ru">World Fashion
-</display-name>
+            <display-name lang="ru">World Fashion</display-name>
             </channel>
             <channel id="158">
-            <display-name lang="ru">World Fashion Channel En
-</display-name>
+            <display-name lang="ru">World Fashion Channel En</display-name>
             </channel><programme start="20250606220000 +0300" stop="20250606231000 +0300" channel="1">
 <title lang="ru">Что? Где? Когда? (Летняя серия игр) (12+)</title>
 </programme>

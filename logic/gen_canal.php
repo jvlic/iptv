@@ -23,14 +23,25 @@ require(PATH.'/login_panel/connect.php');
 //<display-name lang="ru">Первый канал</display-name>
 //</channel>
 
-            $content.='<channel id="'.$i.'"
+            $content.='
+            <channel id="'.$i.'">
             <display-name lang="ru">'.$row['name'].'</display-name>
             </channel>';
             $i++;
                 }
-            $content.='<programme start="20250602050000 +0300" stop="20250602090000 +0300" channel="1">
-<title lang="ru">Телеканал "Доброе утро" (12+)</title>
-</programme>';
+            $content.='<programme start="20250606220000 +0300" stop="20250606231000 +0300" channel="1">
+<title lang="ru">Что? Где? Когда? (Летняя серия игр) (12+)</title>
+</programme>
+<programme start="20250606231000 +0300" stop="20250607003000 +0300" channel="1">
+<title lang="ru">Наша новая музыка (12+)</title>
+</programme>
+<programme start="20250607003000 +0300" stop="20250607011000 +0300" channel="1">
+<title lang="ru">Подкаст.Лаб (Жизнь замечательных) (12+)</title>
+</programme>
+<programme start="20250607011000 +0300" stop="20250607015000 +0300" channel="1">
+<title lang="ru">Подкаст.Лаб (Драгоценные истории) (12+)</title>
+</programme>
+</tv>';
 //save file
 $filename = '../IPTV_epg.xml';
             if (!$handle = fopen($filename, 'w')) {

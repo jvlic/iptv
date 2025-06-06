@@ -9,8 +9,8 @@ if(!defined('PATH')){
     define("PATH", $_SERVER["DOCUMENT_ROOT"]);
 }
 require(PATH.'/login_panel/connect.php');
-$file_name="../../IPTV_SHARED.m3u";
-//$file_name="../IPTV_SHARED_2025.m3u";
+//$file_name="../../IPTV_SHARED.m3u";
+$file_name="../IPTV_SHARED_2025.m3u";
 
 $icount=0;
 $insertValues = array();
@@ -18,6 +18,7 @@ $mass=array();
 if ( ($handle_o = fopen($file_name, "r") ) !== FALSE ) {
 //while ( ($data_o = fgetcsv($handle_o, 1000, ",")) !== FALSE) {
     while ( ($data_o = fgets($handle_o)) !== FALSE) {
+  // echo $data_o.'<br />';
         if(!empty($data_o)){
         if(preg_match('/^#EXTINF/u',$data_o)){
             $mass[]=$insertValues;
@@ -40,16 +41,19 @@ if ( ($handle_o = fopen($file_name, "r") ) !== FALSE ) {
       print "<p></p>";
      
   }
+  $mass[]=$insertValues;
  // var_export ($mass);
   fclose($handle_o);
   
 
   }
+ // var_export($mass);
   $date_prin= date("Y-m-d H:i:s");                   
   foreach($mass as $val) {
     if(count($val)>0){
         $flag_update=false;
         $name=$val['name'];
+        $name = str_replace(array("\r", "\n"), '', $name);  
         echo 'name-'.$val['name'].'<br />';
         echo $val['EXTINF'].' '.$val['link'].'<br />';
         $jq="SELECT * FROM iptv_shared where (name=:name)";
@@ -61,11 +65,11 @@ if ( ($handle_o = fopen($file_name, "r") ) !== FALSE ) {
             foreach($result as $row){
                 if($row['EXTINF']!=$val['EXTINF']){
                     $flag_update=true;
-                    echo '<br />change '.$val['EXTINF'] .'<br />'.$row['EXTINF'];
+                    echo '<br />change '.$row['EXTINF'] .'<br />on '.$val['EXTINF'];
                 }
                 if($row['link']!=$val['link']){
                     $flag_update=true;
-                    echo '<br />change '.$val['link'] .'<br />'.$row['link'];
+                    echo '<br />change '.$row['link'] .'<br /> on '.$val['link'];
                 }
                 if($flag_update==true){
                     echo "<br />update<br />";
@@ -79,7 +83,7 @@ if ( ($handle_o = fopen($file_name, "r") ) !== FALSE ) {
             echo "<br />insert<br />";
             $jq="INSERT INTO iptv_shared (EXTINF,name,link,date_update)VALUES(:EXTINF,:name,:link,:date_update)";
         $data_jq=array('name'=>$name,'EXTINF'=>$val['EXTINF'],'link'=>$val['link'],'date_update'=>$date_prin);
-              //  $result2=$link->insertTransaction($jq,$data_jq); 
+                $result2=$link->insertTransaction($jq,$data_jq); 
     }
      if (count($result)>2){
         echo "<br /> We have anomally,row >2 in".$name;
