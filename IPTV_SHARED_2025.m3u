@@ -11,6 +11,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://epg.iptvx.one/picons/rtr-planeta.png" group-title="Эфирные", РТР-Планета Европа
+#EXTVLCOPT:http-user-agent=SmartTV
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
 
 #EXTINF:-1 tvg-id="ntv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",НТВ
@@ -66,29 +67,35 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
 
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости", Мир 24
+#EXTVLCOPT:http-user-agent=SmartTV
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 
-
 #EXTINF:-1 tvg-id="rbk" group-title="Новости", РБК HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 
 #EXTINF:-1 tvg-id="ОБЩЕСТВЕННАЯ СЛУЖБА НОВОСТЕЙ" group-title="Новости", ОСН ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/TASS_Logo_(Cyrillic)_2017.svg/1200px-TASS_Logo_(Cyrillic)_2017.svg.png" group-title="Новости", ТАСС
+#EXTVLCOPT:http-user-agent=SmartTV
 https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="360-news" group-title="Новости", 360 Новости
+#EXTVLCOPT:http-user-agent=SmartTV
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/tracks-v5a1/mono.m3u8
 
 #EXTINF:-1 group-title="Новости",Известия HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 
 #EXTINF:-1 tvg-id="bbc" group-title="Новости", BBC World News
+#EXTVLCOPT:http-user-agent=SmartTV
 https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE
 
 #EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",СТС Love
@@ -112,63 +119,79 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 
 #EXTINF:-1 tvg-id="7d7" group-title="Развлекательные", Just TV
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fenixstream2.online/memfs/0ac46a4f-71ea-4bf7-bb62-312df327b6c8.m3u8
 
 #EXTINF:-1 tvg-id="prodvizhenie" group-title="Развлекательные", Продвижение
+#EXTVLCOPT:http-user-agent=SmartTV
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
 
 #EXTINF:-1 tvg-id="tvoetv-humor" tvg-logo="https://i.postimg.cc/85hJM1pk/Tvoe-TV-Umor.png" group-title="Развлекательные",Твоё ТВ HD Юмор
+#EXTVLCOPT:http-user-agent=SmartTV
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg" tvg-logo="http://i122.fastpic.org/big/2023/0903/dd/885ed8503262c3f3db6024c1983246dd.png" group-title="Развлекательные", Кулинар ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
 https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 
 #EXTINF:-1 tvg-id="food-network" group-title="Развлекательные", Food Network
+#EXTVLCOPT:http-user-agent=SmartTV
 http://ott-cdn.ucom.am/s18/04.m3u8
 
 #EXTINF:-1 tvg-id="zhivi" group-title="Развлекательные", Живи
+#EXTVLCOPT:http-user-agent=SmartTV
 http://195.18.23.20:8000/play/10/index.m3u8
 
 #EXTINF:-1 group-title="Познавательные",viju+ Planet HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://92.242.110.52:9835/udp/238.1.3.5:1234
 
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные",Terra HD
+#EXTVLCOPT:http-user-agent=SmartTV
 https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные",Моя Планета
+#EXTVLCOPT:http-user-agent=SmartTV
 http://tv.streams.baikal-telecom.net:8080/Moya_Planeta/index.m3u8
 
 #EXTINF:-1 tvg-id="zagorodnaya-zhizn" group-title="Познавательные", Загородная жизнь
+#EXTVLCOPT:http-user-agent=SmartTV
 http://185.57.68.33/40/mpegts
 
 #EXTINF:-1 tvg-id="kto-est-kto" group-title="Познавательные",Кто есть кто
+#EXTVLCOPT:http-user-agent=SmartTV
 http://178.212.71.253:8000/play/132/index.m3u8
 
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные",RTG HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://tv.streams.baikal-telecom.net:8080/RTG_HD/index.m3u8
 
 #EXTINF:-1 group-title="Познавательные",История
+#EXTVLCOPT:http-user-agent=SmartTV
 http://stream-msk-04.ott.tricolor.tv/dtv/id259_MSKSG-PVR-1--Istoriya/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc0OTQ0NDE1MCwiaHdpZCI6IjYwZmI5ZjQ2OTVjNWEzMTc4Mjc5ZmUyNzY3YTQxMzE4ODMwNTYwZjJiMTc4ODQ2ZmQ4NjAzNmQxMzMzMTdjYWYiLCJsYXN0X3JlcV9kYXRlIjoxNzQ4ODM5MzUwLCJzZXNzaW9uX2lkIjoiZTIwNjRlOWRlNDFjNTI1NzEyZGQ5ZjM1NzYxZTM1M2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.1fM0XAAaswJUV3EvJnrouY6RkkLX08lC8qeP-otRmaY
 
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы", viju TV1000
+#EXTVLCOPT:http-user-agent=SmartTV
 http://109.248.236.51/viju_tv1000/mono.m3u8
 
 #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы",viju TV1000 Action HD
+#EXTVLCOPT:http-user-agent=SmartTV
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=x3n36VH3d9C8xkya_1ig0Q&e=1748983611&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 
 #EXTINF:-1 tvg-id="viju-tv1000-romantica" group-title="Кино и сериалы",viju TV1000 romantica
+#EXTVLCOPT:http-user-agent=SmartTV
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=CjJlZqEFfxtLn-_7eB5Pkg&e=1748983641&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 
 #EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы", Ретро ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
 http://178.212.71.253:8000/play/90/index.m3u8
 
 #EXTINF:-1 group-title="Кино и сериалы",Hollywood
-http://109.200.130.123:7537/play/a03g
-
-EXTINF:-1 group-title="Кино и сериалы",Еврокино
+#EXTVLCOPT:http-user-agent=SmartTV
 http://87.120.142.11:18000/STSLove
 
 #EXTINF:-1 group-title="Кино и сериалы", Кино 1 International
+#EXTVLCOPT:http-user-agent=SmartTV
 http://kino-1.catcast.tv/content/38617/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-1filmax.jpg?itok=cAN6QlYt" tvg-id="no_epg_cinema" group-title="Кинозалы", 1FILMAX
@@ -180,15 +203,19 @@ http://195.9.195.3:8080/hls/204708.m3u8
 http://195.9.195.3:8080/hls/204717.m3u8
 
 #EXTINF:-1 tvg-logo="http://i120.fastpic.org/big/2022/0720/74/52a7882bf655f06a149bf9b06147dd74.png" tvg-id="Видеокасета VHS" group-title="Кинозалы", Видеокасета VHS
+#EXTVLCOPT:http-user-agent=SmartTV
 https://132544.edgevideo.ru/streams/132544_806129/playlist.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", ФАНТАСТИКА HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://92.53.64.197:5050/IPTVPLAYFANTASTIKA.tv/video.m3u8?token=m3VIth-Rou_bM1
 
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", ПАМЯТЬ HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://92.53.64.197:5050/IPTVPLAYPAMYAT.tv/video.m3u8?token=m3VIth-Rou_bM1
 
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Кинозалы", МультСказки HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://92.53.64.197:5050/IPTVPLAYMultSkazki.tv/video.m3u8?token=m3VIth-Rou_bM1
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 1
@@ -206,7 +233,6 @@ https://hls.goodgame.ru/hls/181039.m3u8
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 4
 #EXTVLCOPT:http-user-agent=SmartTV
 https://autopilot.catcast.tv/content/47689/index.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Film TV 6
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -238,10 +264,6 @@ https://hls.goodgame.ru/hls/186021.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", FantasticMystiC
 #EXTVLCOPT:http-user-agent=SmartTV
-https://hls.goodgame.ru/hls/187741.m3u8
-
-EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы",TDM TV - WWW
-#EXTVLCOPT:http-user-agent=SmartTV
 http://hls.goodgame.ru:8080/hls/192005.m3u8
 
 #EXTINF:-1 tvg-logo="http://img.rnx.ru/logotvchannel/347.jpg" tvg-id="no_epg_cinema" group-title="Кинозалы", Первый автомобильный
@@ -249,108 +271,179 @@ http://hls.goodgame.ru:8080/hls/192005.m3u8
 https://hls.goodgame.ru/hls/206355.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Retrovision
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rvision/tracks-v1a1/mono.m3u8
 
-
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Retrovision Motor
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Retrovision Movies
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Retrovision Classic
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rvisionclassic/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Retrovision Кинопанорама
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 1
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba13/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 2
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba14/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 3
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba24/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 5
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-b/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 6
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-c/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 7
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-d/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 8
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-e/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 9
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-f/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 10
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-g/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 11
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-h/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 12
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-i/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 13
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-j/index.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 14
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-m/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 15
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-p/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 16
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-t/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 17
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-yz/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 18
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-n/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 19
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-qr/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 20
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-uv/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 21
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-o/index.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 22
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-s/index.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 23
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-films-w/index.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 24
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 25
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 26
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-b/index.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 27
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 28
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 29
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 30
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 31
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 32
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-k/index.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 33
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 34
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 35
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 36
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba64/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 37
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba65/index.m3u8
 
 #EXTINF:-1 tvg-id="baby-time" tvg-logo="https://iptvx.one/picons/baby-time.png" group-title="Детские", Baby Time
 #EXTVLCOPT:http-user-agent=SmartTV
 https://livetv.mylifeisgood.net.ru/channels/babytime.m3u8
 
-
 #EXTINF:-1 group-title="Детские", Мульт
+#EXTVLCOPT:http-user-agent=SmartTV
 http://stv.mediacdn.ru/live/cdn/mult/playlist_sdhigh.m3u8
 
 #EXTINF:-1 group-title="Детские",Ani
+#EXTVLCOPT:http-user-agent=SmartTV
 http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigher.m3u8
 
 #EXTINF:-1 tvg-id="ryzhy" group-title="Детские", Рыжий
@@ -358,10 +451,11 @@ http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigher.m3u8
 https://livetv.mylifeisgood.net.ru/channels/ryjii.m3u8
 
 #EXTINF:-1 group-title="Детские", Мульт и музыка
+#EXTVLCOPT:http-user-agent=SmartTV
 http://stv.mediacdn.ru/live/cdn/multimuzika/playlist_sdhigher.m3u8
 
-
 #EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/get-ott/239697/2a00000173b9e6c0ae818f3aba1aaa8891ca/960x540" tvg-id="no_epg_mult" group-title="Детские", Чип и Дейл
+#EXTVLCOPT:http-user-agent=SmartTV
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
 
 #EXTINF:-1 tvg-id="Мультики и Сказки HD" tvg-logo="https://i.postimg.cc/sx6H4jvt/Multiki-i-Skazki.png" group-title="Детские", Мультики и Сказки HD
@@ -369,22 +463,20 @@ http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
 https://hls.goodgame.ru/hls/198446.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Детские" tvg-logo="https://img.razrisyika.ru/kart/20/1200/76229-eralash-32.jpg", Ералаш
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba8/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="detkinoint-tviksel" group-title="Детские" tvg-logo="https://epg.iptvx.one/picons/detkinoint-tviksel.png", Детское кино International
+#EXTVLCOPT:http-user-agent=SmartTV
 http://autopilot.catcast.tv/content/38720/index.m3u8
 
 #EXTINF:-1 tvg-id="viva-rus" group-title="Музыкальные",VIVA TV Russia
 #EXTVLCOPT:http-user-agent=SmartTV
-https://hls.goodgame.ru/hls/180805.m3u8
-
-EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/685286c919ab8768f8a6f70eb5dc8171.webp" group-title="Музыкальные",K Pop
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 
-
 #EXTINF:-1 tvg-logo="https://www.hedex.tv/uploads/images/clip_5757_1705741236_social.jpg" tvg-id="no_epg_music" group-title="Музыкальные", Oxygen Music 
+#EXTVLCOPT:http-user-agent=SmartTV
 https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
-
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://avatars.mds.yandex.net/get-socsnippets/5326024/2a0000018c7f5b87c6fd60eaaf38c7fe4845/square_216" group-title="Музыкальные", TMF RUS
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -395,6 +487,7 @@ https://hls.goodgame.ru/hls/201891.m3u8
 http://hlss.goodgame.ru/hls/180509.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://content.foto.my.mail.ru/mail/maxraykov/_musicplaylistcover/i-14.jpg" group-title="Музыкальные", DanceHits 80'
+#EXTVLCOPT:http-user-agent=SmartTV
 http://dancehits80.denvs.ru:8080/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://tvradioo.ru/wp-content/uploads/2021/01/2023-01-17_21-45-17.png" group-title="Музыкальные", MIXM TB
@@ -402,6 +495,7 @@ http://dancehits80.denvs.ru:8080/index.m3u8
 http://hlss.goodgame.ru/hls/181490.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://play-lh.googleusercontent.com/g7Ul8xOO2Dqxe9Ycc02FVYxaHQweh_bV0Eov9eIEa7_6Y30P20dWTzYGBXG9eUjAfq8" group-title="Музыкальные", Spirit TV
+#EXTVLCOPT:http-user-agent=SmartTV
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i.ibb.co/0K73Hmj/av-1499153-llgo-transformed.png" group-title="Музыкальные",Hot Beats TV HD
@@ -409,43 +503,51 @@ https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 https://hls.goodgame.ru/hls/191858.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://deluxemusic.de/wp-content/uploads/sites/4/2019/11/Deluxe-Musik-logo.png" group-title="Музыкальные",Deluxe Music TV
+#EXTVLCOPT:http-user-agent=SmartTV
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i.imgur.com/NKfVymH.png" group-title="Музыкальные",Kiss TV
+#EXTVLCOPT:http-user-agent=SmartTV
 https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://photos.live-tv-channels.org/tv-logo/kaloopy-tv-3596.webp" group-title="Музыкальные",Kaloopy HD
+#EXTVLCOPT:http-user-agent=SmartTV
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/ebe730b7-f364-458e-82e0-2f49dfd9e6c4/0.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tvplus/03232021/Loupe4K_190x190.png?raw=true" group-title="Музыкальные",Loupe 4k
+#EXTVLCOPT:http-user-agent=SmartTV
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
-
 #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="https://i.postimg.cc/3rkRjpjC/photo-2024-01-14-15-41-50.jpg", CHD-TV RU Rock HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://194.26.229.213/chdtv_ru_rock/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://cdn-profiles.tunein.com/s301079/images/logog.png?t=155672" group-title="Музыкальные", V2BEAT TV
+#EXTVLCOPT:http-user-agent=SmartTV
 https://abr.de1se01.v2beat.live/live/live6/chunks.m3u8
 
-
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://s.rbk.ru/v1_companies_s3/media/trademarks/fddbf2e9-f2e9-45f8-bf8a-83155889f423.jpg" group-title="Музыкальные", Dance TV
+#EXTVLCOPT:http-user-agent=SmartTV
 https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 
-
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.coolstreaming.us/img/ch/image18194248015.jpg" group-title="Музыкальные", Deep House District
+#EXTVLCOPT:http-user-agent=SmartTV
 https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
 
 #EXTINF:-1 group-title="Музыкальные",Clubbing TV
+#EXTVLCOPT:http-user-agent=SmartTV
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="song-tv-ru" group-title="Музыкальные", Song TV Россия
+#EXTVLCOPT:http-user-agent=SmartTV
 https://songtv.hls.iptvdc.com/web-russia/index.m3u8
 
-
 #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные", RU.TV HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 
 #EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные", MTV Europe
+#EXTVLCOPT:http-user-agent=SmartTV
 http://fl5.moveonjoy.com/MTV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://res.cloudinary.com/clearlink/image/upload/v1589302537/Dish/images/isolated/~png-logo-exports-for-channel-page-hero/MTV_Classic-Default-Black_2x_ubqscy.png" tvg-id="no_epg_music" group-title="Музыкальные", MTV Classic
@@ -457,21 +559,27 @@ http://fl5.moveonjoy.com/MTV_CLASSIC/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
 #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные",1HD Music
+#EXTVLCOPT:http-user-agent=SmartTV
 http://91.247.68.229:8000/play/eee/index.m3u8
 
 #EXTINF:-1 group-title="Музыкальные",Первый музыкальный
+#EXTVLCOPT:http-user-agent=SmartTV
 http://hz1.teleport.cc/HLS/SD.m3u8
 
 #EXTINF:-1 group-title="Музыкальные",Первый музыкальный HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://hz1.teleport.cc/HLS/HD.m3u8
 
 #EXTINF:-1 tvg-id="tnt-music" group-title="Музыкальные",ТНТ Music HD
+#EXTVLCOPT:http-user-agent=SmartTV
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
 
 #EXTINF:-1 tvg-id="bridge-hd" group-title="Музыкальные", Bridge TV Deluxe
+#EXTVLCOPT:http-user-agent=SmartTV
 http://178.212.71.253:8000/play/98/index.m3u8
 
 #EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Музыкальные", Bridge TV Шлягер
+#EXTVLCOPT:http-user-agent=SmartTV
 http://178.212.71.253:8000/play/142/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://thumbs.dreamstime.com/b/retro-musiklogo-des-festivals-einfache-graue-art-101973093.jpg" group-title="Музыкальные", Retro Music
@@ -479,41 +587,46 @@ http://178.212.71.253:8000/play/142/index.m3u8
 http://hls.goodgame.ru/hls/206244.m3u8
 
 #EXTINF:-1 tvg-id="retro-music-cz" tvg-logo="https://iptvx.one/picons/retro-music-cz.png" group-title="Музыкальные", Retro Music TV
+#EXTVLCOPT:http-user-agent=SmartTV
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 
-
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/19/91/d7/1991d7b82952f57c6a3231235d367a69.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Ocko Star
+#EXTVLCOPT:http-user-agent=SmartTV
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/3d/b0/4f/3db04f7e5cf79872e7db59ab1cb3a50b.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Ocko TV
+#EXTVLCOPT:http-user-agent=SmartTV
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
 
 #EXTINF:-1 tvg-logo="https://oklivetv.com/wp-content/uploads/media/2bbab18fa09352f91d2ecb59d6e17fdb.jpeg" tvg-id="no_epg_music" group-title="Музыкальные",Ocko Gold
+#EXTVLCOPT:http-user-agent=SmartTV
 https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko_gold.stream.1.smil/playlist.m3u8
-http://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn2.vectorstock.com/i/1000x1000/95/16/logo-music-vector-8129516.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Музыка 1 International
+#EXTVLCOPT:http-user-agent=SmartTV
 http://kino-1.catcast.tv/content/37745/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn2.vectorstock.com/i/1000x1000/95/16/logo-music-vector-8129516.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Музыка 2 International
+#EXTVLCOPT:http-user-agent=SmartTV
 http://kino-1.catcast.tv/content/37742/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumbs.dreamstime.com/b/фи-ьм-49148066.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Музыка Кино International
+#EXTVLCOPT:http-user-agent=SmartTV
 http://kino-1.catcast.tv/content/37739/index.m3u8
 
-
 #EXTINF:-1 tvg-id="fashion-one-4k" group-title="Fashion",Fashion 4K
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="fashion-tv" group-title="Fashion",Fashion TV HD
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
 
 #EXTINF:-1 tvg-id="world-fashion-channel" group-title="Fashion",World Fashion
+#EXTVLCOPT:http-user-agent=SmartTV
 https://fl1001.bozztv.com/ushba19/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="world-fashion-channel-en" tvg-logo="https://iptvx.one/picons/world-fashion-channel-en.png" group-title="Fashion",World Fashion Channel En
+#EXTVLCOPT:http-user-agent=SmartTV
 http://cdn.wfc.tv/cdn/stream-eng-1080p.m3u8
-
-#EXTINF:-1 tvg-id="world-fashion-channel" tvg-logo="https://iptvx.one/picons/world-fashion-channel.png" group-title="Fashion",World Fashion Channel
-http://live-3.otcnet.ru/wfcrus/index.m3u8
 
