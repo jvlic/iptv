@@ -8,9 +8,27 @@ define('INCLUDE_CHECK',true);
 if(!defined('PATH')){
     define("PATH", $_SERVER["DOCUMENT_ROOT"]);
 }
+error_reporting(E_ALL);
+$flag_test=true;
+//$flag_test=false;
+?>
+<head><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="Keywords" content="parse"/>
+  <meta name="description" content="parse file"/>
+<title>parse_iptv</title>
+ <link rel="shortcut icon" href="/favicon.ico"/> 
+ <link rel="stylesheet" type="text/css" href="/css/style.css" media="all" />
+ </head>
+ <?php
+
+ 
 require(PATH.'/login_panel/connect.php');
-//$file_name="../../IPTV_SHARED.m3u";
-$file_name="../IPTV_SHARED_2025.m3u";
+$file_name="../../IPTV_SHARED.m3u";
+//$file_name="../IPTV_SHARED_2025.m3u";
 
 $icount=0;
 $insertValues = array();
@@ -54,8 +72,8 @@ if ( ($handle_o = fopen($file_name, "r") ) !== FALSE ) {
         $flag_update=false;
         $name=$val['name'];
         $name = str_replace(array("\r", "\n"), '', $name);  
-        echo 'name-'.$val['name'].'<br />';
-        echo $val['EXTINF'].' '.$val['link'].'<br />';
+        //echo 'name-'.$val['name'].'<br />';
+        //echo $val['EXTINF'].' '.$val['link'].'<br />';
         $jq="SELECT * FROM iptv_shared where (name=:name)";
         $data_jq=array('name'=>$name);
         $result=$link->selectDB_fetchALL($jq,$data_jq);
@@ -65,25 +83,29 @@ if ( ($handle_o = fopen($file_name, "r") ) !== FALSE ) {
             foreach($result as $row){
                 if($row['EXTINF']!=$val['EXTINF']){
                     $flag_update=true;
-                    echo '<br />change '.$row['EXTINF'] .'<br />on '.$val['EXTINF'];
+                    echo '<p class="update_text"><br />update '.$name.' <br /> change '.$row['EXTINF'] .'<br />on '.$val['EXTINF']."</p>";
                 }
                 if($row['link']!=$val['link']){
                     $flag_update=true;
-                    echo '<br />change '.$row['link'] .'<br /> on '.$val['link'];
+                    echo '<p class="update_text"><br />update '.$name.' <br />change link '.$row['link'] .'<br /> on '.$val['link']."</p>";
                 }
                 if($flag_update==true){
-                    echo "<br />update<br />";
+                    //echo "<p class='update_text'>update<br /> ".$name.'</p>';
                     $jq="UPDATE iptv_shared SET EXTINF=:EXTINF,link=:link,date_update=:date_update  where (name=:name)";
         $data_jq=array('name'=>$name,'EXTINF'=>$val['EXTINF'],'link'=>$val['link'],'date_update'=>$date_prin);
-                $result2=$link->updateDB($jq,$data_jq);    
-                }
+              if($flag_test==false){
+                $result2=$link->updateDB($jq,$data_jq);
+              }    
+           }
         }
         }
         if (count($result)==0){
-            echo "<br />insert<br />";
+       //     echo "<p class='insert_text'><br />insert<br /> ".$name." link ".$val['link']."</p>";
             $jq="INSERT INTO iptv_shared (EXTINF,name,link,date_update)VALUES(:EXTINF,:name,:link,:date_update)";
         $data_jq=array('name'=>$name,'EXTINF'=>$val['EXTINF'],'link'=>$val['link'],'date_update'=>$date_prin);
-                $result2=$link->insertTransaction($jq,$data_jq); 
+        if($flag_test==false){
+               // $result2=$link->insertTransaction($jq,$data_jq);
+        }         
     }
      if (count($result)>2){
         echo "<br /> We have anomally,row >2 in".$name;
@@ -107,7 +129,12 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
             $content.=$row['EXTINF']."#EXTVLCOPT:http-user-agent=SmartTV"."\r\n".$row['link']."\r\n";
                 }
 //save file
+if($flag_test==false){
 $filename = '../IPTV_SHARED_2025.m3u';
+$filename_backup = '../../IPTV_SHARED_2025_old.m3u';
+if(file_exists($file_name)){
+    copy($filename,$filename_backup);
+}
             if (!$handle = fopen($filename, 'w')) {
                  echo "Cannot open file ($filename)";
                  exit;
@@ -122,4 +149,5 @@ $filename = '../IPTV_SHARED_2025.m3u';
            // echo "Success, wrote ($somecontent) to file ($filename)";
         
             fclose($handle);
+}
 ?>
